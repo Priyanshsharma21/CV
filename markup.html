@@ -19,6 +19,9 @@
 #myid2{
     border: 2px solid rgb(30, 255, 0);
 }
+li:nth-child(2n+0){
+    color: rgb(95, 95, 82);
+}
 
 
 </style>
@@ -133,6 +136,7 @@
     <!-- form -->
     <!-- actions used for server
          Name is used by server to identify the particular value is that a name of else, name,value this goes to server along with entered value
+         if we enter wrong value like add age in name so it will alert us
          value type can be text,password,radio,number,date,email,checkbox,file -->
          <!-- fieldset is usedto group and legent used to name the gropup -->
    <hr>
@@ -151,6 +155,7 @@
         <div>
             <label for="age">Age</label>
             <input type="number" name="Age of person" id="age">
+
         </div>
 <br>
         <div>

@@ -22,7 +22,6 @@ body{
     border: 2px solid rgb(90, 99, 89);
     border-radius: 10px;
 }
-
 fieldset{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(22, 20, 20);
@@ -92,3 +91,12 @@ fieldset{
     background: #00C1CF;
     background: linear-gradient(to top, #00C1CF, #D1EE15);
 }
+
+
+input#eligible {
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    color: gray;
+    background-color: green;}
+
+
